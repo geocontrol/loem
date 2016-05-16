@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include partials/head %>
+	</head>
+	<body class="container">
+		<header>
+			<% include partials/header %>
+		</header>
+		
+		<main>
+			<div class="jumbotron">
+			<div class="about-text">
+<p > This is a lot of text about LoEM</p>
+			</div>
+			<div>
+		 
+           <% if(typeof(errorMessage) !== 'undefined') {%>
+              <span><%= errorMessage %></span>
+           <% } %>
+
+
+	    
+		 	</main>
+		
+	<footer>
+		<% include partials/footer %>
+	</footer>
+	</body>
+</html>
+
